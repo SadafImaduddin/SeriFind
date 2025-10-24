@@ -1,0 +1,50 @@
+body{
+    background-color:#1D080A;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color:#9b4b50;
+    font-family:fantasy;
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px; 
+    font-family:fantasy;
+    color: #9b4b50;
+}
+
+a{
+    text-decoration: none;
+    color:  #a34b51;
+}
+
+.input-field{
+    display: flex;
+}
+
+.search{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    padding: 2px;
+    
+}
